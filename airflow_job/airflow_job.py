@@ -80,7 +80,7 @@ with DAG(
         batch=batch_details,
         batch_id=batch_id,
         project_id="dogwood-theorem-467417-b3",
-        region="asia-east1780",
+        region="asia-east1",
         gcp_conn_id="google_cloud_default",
     )
 
