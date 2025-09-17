@@ -38,7 +38,7 @@ jobs:
 
       - name: Upload Spark Job to GCS
         run: |
-          gsutil cp spark_job/spark_transformation_job.py gs://sam-airflow-project-gds/airflow-project-1/spark-job/
+          gsutil cp spark_job/spark_transformation_job.py gs://sam-airflow-project-gds/airflow-project-2/spark-job/
 
       - name: Upload Airflow DAG to DEV
         run: |
@@ -77,7 +77,7 @@ jobs:
 
       - name: Upload Spark Job to GCS
         run: |
-          gsutil cp spark_job/spark_transformation_job.py gs://sam-airflow-project-gds/airflow-project-1/spark-job/
+          gsutil cp spark_job/spark_transformation_job.py gs://sam-airflow-project-gds/airflow-project-2/spark-job/
 
       - name: Upload Airflow DAG to PROD
         run: |
