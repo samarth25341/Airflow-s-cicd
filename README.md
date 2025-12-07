@@ -1,5 +1,12 @@
 # Airflow-s-cicd
-Project
+This project is an end-to-end data engineering pipeline built on GCP using Airflow for orchestration, Dataproc Serverless for Spark processing, and BigQuery for analytics. Raw flight data is stored in GCS, transformed using PySpark, and loaded into BigQuery for date-wise flight performance analysis.
+
+We follow a simple branching strategy with dev (development/testing) and main (production). Once changes are validated, they are merged into the main branch via CI/CD using GitHub Actions.
+
+Tech Stack: Airflow • PySpark • Dataproc Serverless • BigQuery • GCS • GitHub Actions
+Key Features: Automated scheduling, serverless compute, clean transformations, fast analytics.
+
+This pipeline helps automate flight data processing and provides reliable, scalable insights for reporting and dashboards.
 <img width="420" height="250" alt="image" src="https://github.com/user-attachments/assets/e6b62338-0570-4564-a5d8-de3a0b26bb3c" />
 <img width="940" height="279" alt="image" src="https://github.com/user-attachments/assets/828cb8ae-5022-4a06-af3c-0389576de212" />
 <img width="815" height="398" alt="image" src="https://github.com/user-attachments/assets/ed38f69e-59c1-458f-b809-ae402907cb1d" />
